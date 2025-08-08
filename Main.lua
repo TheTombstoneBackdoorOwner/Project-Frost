@@ -191,8 +191,7 @@ local function C_a()
                 if success then
                     RemoteToRunOffOf = v
                     injectedFlag.Value = true
-                    statusLabel.BackgroundTransparency = 0
-                    statusLabel.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+                    statusLabel.BackgroundTransparency = 1
                     statusLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
                     statusLabel.Text = "Injected!"
                     return
