@@ -3,7 +3,7 @@
 88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
 88      88    88    88            odD'      88      88    88 88ooo88 
 88  ooo 88    88    88          .88'        88      88    88 88~~~88 
-88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @Rxs
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
@@ -19,6 +19,8 @@ G2L["Frame_2"] = Instance.new("Frame", G2L["ScreenGui_1"]);
 G2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["Frame_2"]["Size"] = UDim2.new(0.65469, 0, 0.61995, 0);
 G2L["Frame_2"]["Position"] = UDim2.new(0.02187, 0, 0.04852, 0);
+G2L["Frame_2"].Active = true
+G2L["Frame_2"].Draggable = true
 
 G2L["Clear_3"] = Instance.new("TextButton", G2L["Frame_2"]);
 G2L["Clear_3"]["TextWrapped"] = true;
