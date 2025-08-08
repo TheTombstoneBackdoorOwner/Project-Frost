@@ -76,6 +76,8 @@ G2L["TextBox_e"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 G2L["TextBox_e"].Size = UDim2.new(0.81384, 0, 0.87826, 0)
 G2L["TextBox_e"].Position = UDim2.new(0.00955, 0, 0.04783, 0)
 G2L["TextBox_e"].Text = ""
+G2L["TextBox_e"].TextXAlignment = Enum.TextXAlignment.Left
+G2L["TextBox_e"].TextYAlignment = Enum.TextYAlignment.Top
 
 G2L["Frame_f"] = Instance.new("Frame", G2L["TextBox_e"])
 G2L["Frame_f"].BorderSizePixel = 0
